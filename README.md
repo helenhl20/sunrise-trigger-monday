@@ -6,7 +6,7 @@ This is a monday app that will create a new item based off of the publicly avail
 
 - When sunrise begins, create an item. 
 
-https://github.com/helenhl20/sunrise-trigger-monday/blob/main/images/sunrise_trigger.png
+![Screenshot](https://github.com/helenhl20/sunrise-trigger-monday/blob/main/images/sunrise_trigger.png)
 
 ## Install
 
@@ -29,7 +29,7 @@ $ npm install
 
 Make sure you create a .env file and includes your app signing secret, as well as the tunnel subdomain of your choosing. It should look something like this: 
 
-https://github.com/helenhl20/sunrise-trigger-monday/blob/main/images/env_file.png
+![Screenshot](https://github.com/helenhl20/sunrise-trigger-monday/blob/main/images/env_file.png)
 
 ## Run the project
 
