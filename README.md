@@ -1,21 +1,10 @@
 ## Overview
 
-This is the "Github Integration" example Monday app.
-<br>It can be used as a board recipe:
+This is a monday app that will create a new item based off of the publicly available sunrise API. When the sun rises each day according to the longitude and latitude of NYC, a new item will be created. 
 
-- When <b>status</b> changes to <b>something</b>, create an <b>issue</b> in <b>this repository</b>
-- When an issue is created in <b>this repository</b>, create an <b>item</b>
+<br>The board recipe is as follows:
 
-<br>This app demonstrates how to use:
-
-- integration recipe
-- custom action
-- custom trigger
-- call authentication with JWT
-- query monday API using short lived token (seamless authentication)
-- remote options for custom fields
-- item mapping
-- oAuth proccess to 3rd party
+- When sunrise begins, create an item. 
 
 ## Install
 
@@ -33,6 +22,11 @@ $ nvm use
 ```
 $ npm install
 ```
+
+## Setup
+
+Make sure you create a .env file and includes your app signing secret, as well as the tunnel subdomain of your choosing. It should look something like this: 
+
 
 ## Run the project
 
